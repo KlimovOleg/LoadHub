@@ -1,0 +1,14 @@
+includes:
+    - vendor/larastan/larastan/extension.neon
+
+parameters:
+    paths:
+        - app/
+        - config/
+        - database/
+        - routes/
+
+    # Этап 0: уровень 5. План подъёма: 6 на этапе 3, 8 на этапе 7 (реестр, п. 15).
+    level: 5
+
+    tmpDir: storage/framework/cache/phpstan

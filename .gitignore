@@ -1,0 +1,6 @@
+# compose-переменные конкретной машины (шаблон — .env.example)
+/.env
+
+.DS_Store
+.idea/
+*.log
